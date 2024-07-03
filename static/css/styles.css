@@ -175,21 +175,21 @@ a {
 }
 
 .btn-green {
-    color: var(--primary-color);
+    color: #84a77f;
     padding: 10px 15px;
     font-weight: bolder;
-    background-color: transparent;
-    outline: var(--dark);
+    background-color: #233820;
+    /* outline: var(--dark); */
     cursor: pointer;
-    border: 2px solid var(--primary-color);
+    border: none;
     border-radius: 10px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
 }
 
 .btn-green:hover {
-    background-color: var(--dark);
-    color: var(--primary-color);
+    background-color:#121312;
+    color: #84a77f;
     outline: none;
     border: none;
     transform: scale(1.2);
@@ -331,13 +331,13 @@ Getting Started Section
 ---------------------------------------*/
 
 .card {
-    background-color: var(--secondary-color);
+    background-color: #9fc499;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border: 2px solid rgb(102, 154, 124);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid rgb(13, 14, 13); */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.6);
     border-radius: 25px;
 }
 
