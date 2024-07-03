@@ -6,6 +6,9 @@
     z-index: 99999;
 }
 
+/* *{
+    background-color: #38332e;
+} */
 .newshifter {
     padding: 5px 10px;
     border-radius: 10px;
@@ -574,7 +577,7 @@ body {
 }
 
 .primary {
-    background-color: #0096fe;
+    background-color: #0096fe !important;
     border: none;
     color: #fff;
     padding: 5px 15px;

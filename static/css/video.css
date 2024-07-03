@@ -1,3 +1,11 @@
+/* * {
+    background-color: #fffaf4 ;
+   
+} */
+
+/* div, header, footer, main, section, article, aside {
+    background-color: inherit;
+} */
 :root {
     --primary-color: #52F2B8;
     --secondary-color: rgb(65, 132, 237);
@@ -57,7 +65,7 @@
 
 .adv {
     /* margin: 10px; */
-    background-color: #d9ffb3;
+    background-color: #d9ffb3 ;
     border-radius: 1rem;
     padding: 0.75rem;
     font-weight: 600;
@@ -67,7 +75,7 @@
 
 .dis-adv {
     /* margin: 10px; */
-    background-color: #ffc2b3;
+    background-color: #ffc2b3 ;
     padding: 1rem;
     border-radius: 1rem;
     margin-top: 10px;
@@ -83,3 +91,8 @@
     max-width: 50%;
     margin-left: 10%;
 }
+
+/* .webcamButton{
+    background-color: #070808 !important;
+} */
+
