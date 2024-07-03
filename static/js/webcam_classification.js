@@ -13,7 +13,7 @@ const demosSection = document.getElementById('demos');
 const enableWebcamButton = document.getElementById('webcamButton');
 const predResult = document.getElementById("prediction");
 
-const prediction_threshold = 0.6;
+const prediction_threshold = 0.75;
 
 const set1_labels = { 0: "Downward Dog", 1: "Tree", 2: "Warrior 1" }
 const set2_labels = { 0: "Goddess", 1: "Mountain", 2: "Warrior 2" }

@@ -5,6 +5,9 @@
     user-select: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    /* background-color: #fffaf4;
+}
+} */
 }
 
 :root {
@@ -90,9 +93,9 @@ a {
     font-weight: 600;
 }
 
-.nav-active {
+/* .nav-active {
     font-weight: bolder;
-}
+} */
 
 .hover:hover {
     color: var(--primary-color) !important;
@@ -277,19 +280,21 @@ End of Hero Section
 
 .feature-card {
     text-align: center;
+    border-radius: 25px;
     width: 18rem;
-    background-color: var(--secondary-color);
+    background-color:  #fffaf4;
     color: var(--primary-color);
 }
 
 .feature-card .card-title {
-    color: #fff;
+    color: #8b6567;
+    font-weight: bolder;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .feature-card .card-text {
-    color: var(--dark);
+    color: #3d3132;
     font-weight: 700;
 }
 
@@ -331,7 +336,7 @@ Getting Started Section
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border: 2px solid rgb(18, 102, 238);
+    border: 2px solid rgb(102, 154, 124);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
@@ -343,7 +348,7 @@ Getting Started Section
 }
 
 .card .card-title {
-    color: var(--primary-color);
+    color:#403d4d;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -357,7 +362,3 @@ Getting Started Section
     color: #fff;
 }
 
-.githubdiv {
-    display: flex;
-    justify-content: center;
-}
