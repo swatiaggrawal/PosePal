@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
 /* * {
     background-color: #fffaf4 ;
    
@@ -15,9 +19,13 @@
     --dark: #26395d;
 }
 
-.home-img img {
+.home-img i {
     max-width: 50px;
-    margin-left: 10px;
+    margin-left: 1200px;
+    margin-top: 2px;
+    color: #41333c;
+    
+
 }
 
 .heading {
@@ -27,9 +35,11 @@
 .heading span {
     color: var(--dark);
 }
-
+.heading span:hover{
+    color: #84a77f !important;
+}
 .header-container-flex {
-    display: grid;
+    display: grid; 
     grid-template-columns: 0% 100%;
 }
 

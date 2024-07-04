@@ -329,6 +329,11 @@ End of Hero Section
 /*------------------------------------ 
 Getting Started Section
 ---------------------------------------*/
+.card-wrapper {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing */
+    gap: 20px; /* Optional: Add space between cards */
+}
 
 .card {
     background-color: #9fc499;
@@ -339,6 +344,8 @@ Getting Started Section
     /* border: 2px solid rgb(13, 14, 13); */
     box-shadow: 10px 10px 10px rgba(0, 0, 0,0.6);
     border-radius: 25px;
+    flex: 1; /* Make cards take up equal space */
+    margin: 10px; /* Optional: Add some margin */
 }
 
 .card-img-top {

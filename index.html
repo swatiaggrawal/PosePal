@@ -25,7 +25,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="#hero"><i class="fa-solid far fa-heart"></i> Pose<span>Pal</span> </a>
+                <a class="navbar-brand" href="#hero"><i class="fa-solid far fa-heart" style="font-weight: bolder;" ></i> Pose<span>Pal</span> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -137,32 +137,30 @@
 
         <h1 class="section-title"><span>Get Started</span></h1><br>
         <div class="container">
-
-            <div data-aos="fade-right" data-aos-duration="1000" class="card mb-3">
-                <img class="card-img-top" src="./static/imgs/yoga_set1.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Pose Sequence 1</h5>
-                    <h4 class="card-text"> <span>Tree | Downward Dog | Warrior 1</span></h4>
-
-                    <div class="card-btns">
-                        <!-- <a href="./templates/image.html"><button type="button" class="btn-green" id="set1-btn">Classify Image</button></a> -->
-                        <a href="./templates/webcam.html"><button type="button" class="btn-green" id="set1-real-btn">START</button></a>
+            <div class="card-wrapper">
+                <div data-aos="fade-left" data-aos-duration="1000" class="card mb-3">
+                    <img class="card-img-top" src="./static/imgs/set1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pose Sequence 1</h5>
+                        <h4 class="card-text"> <span>Warrior 1 | Tree | Downward Dog </span></h4>
+                        <div class="card-btns">
+                            <a href="./templates/webcam.html"><button type="button" class="btn-green" id="set1-real-btn">START</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="card mb-3">
+                    <img class="card-img-top" src="./static/imgs/set 2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pose Sequence 2</h5>
+                        <h4 class="card-text"><span>Mountain | Goddess | Warrior 2</span></h4>
+                        <div class="card-btns">
+                            <a href="./templates/webcam.html"><button type="button" class="btn-green" id="set2-real-btn">START</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <div data-aos="fade-left" data-aos-duration="1000" class="card mb-3">
-                <img class="card-img-top" src="./static/imgs/yoga_set2.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Pose Sequence 2</h5>
-                    <h4 class="card-text"><span>Mountain | Goddess | Warrior 2</span></h4>
-
-                    <!-- <div class="card-btns">
-                        <a href="./templates/image.html"><button type="button" class="btn-green" id="set2-btn">Classify Image</button></a> -->
-                        <a href="./templates/webcam.html"><button type="button" class="btn-green" id="set2-real-btn">START</button></a>
-                    </div>
-                </div>
-            </div>
+        </div>
+        
 
         </div>
 
@@ -226,20 +224,11 @@
 
 
     <script>
-        document.getElementById("set1-btn").addEventListener("click", () => {
-            console.log("Set 1 Button");
-            sessionStorage.setItem("yogaSet", "1");
-        });
-
         document.getElementById("set1-real-btn").addEventListener("click", () => {
             console.log("Set 1 Button");
             sessionStorage.setItem("yogaSet", "1");
         });
 
-        document.getElementById("set2-btn").addEventListener("click", () => {
-            console.log("Set 2 Button");
-            sessionStorage.setItem("yogaSet", "2");
-        });
         document.getElementById("set2-real-btn").addEventListener("click", () => {
             console.log("Set 2 Button");
             sessionStorage.setItem("yogaSet", "2");
