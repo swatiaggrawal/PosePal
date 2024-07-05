@@ -47,7 +47,7 @@
 
     <div class="row justify-content-around">
         <div class="col-12 col-lg-6 col-xl-6 col-sm-12 col-md-12" >
-            <h4 class="text-center">Switch on the camera and<br> switch off all negativity!</h4>
+            <h4 class="text-center">Camera on, negativity off</h4>
             <br>
             <div class="collapse" id="collapseExample">
 
@@ -63,16 +63,21 @@
             </div>
             <div class="flex-parent jc-center">
                 <br>
-
-                <button id="webcamButton" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                ENABLE CAM
+                <button id="webcamButton" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="background-color: #83494b; border-color: #83494b;">
+                    ENABLE CAM
                 </button>
 
+                <br>
+                <a href="./webcam.html">
+                <button id="webcamButton2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="background-color: #83494b; border-color: #83494b; margin-left: 30px;">
+                    DISABLE CAM
+                </button>
+                </a>
             </div>
             <br>
             <div class="flex-parent jc-center">
 
-                <h4>PREDICTED POSE:
+                <h4>Predicted Pose:
                     <span id="prediction">
                     
                 </span> </h4>
@@ -82,11 +87,11 @@
         </div>
         <div class="col-12 col-lg-6 col-xl-6 col-sm-12 col-md-12">
             <div class="flex-parent jc-center">
-                <h3>Do it like <span class="timer">this</span></h3>
+                <h3>Follow these <span class="timer">steps</span></h3>
                 <br>
             </div>
             <div class="flex-parent jc-center">
-                <img class="img-fluid" id="gif" width="80%">
+                <img id="gif" width="70%" height="70%" style="margin-top: 40px; resize: both;">
             </div>
             <br>
         </div>
@@ -98,34 +103,26 @@
         <button class="btn btn-primary" onclick=resetTimer()>reset</button>
     </div> -->
 <!-- class=" col-sm-12 col-md-12 col-lg-6 col-xl-6 jc-center" -->
-    <div class="row">
-        <div class=" col-sm-12 col-md-12 col-lg-6 col-xl-6 jc-center" >
+    
+<div class="container">
+    <div class="row jc-center">
+        <div class="col-12 jc-center">
             <div class="adv-disadv">
-                <h4 class="subheading"><b>Cautions</b></h4>
-                <div class="dis-adv border border-danger" id="disAdv">
-                </div>
-                <br>
-                <h4 class="subheading"><b>Benifits</b></h4>
-                <div class="adv border border-success" id="adv">
+                <div class="cautions-and-benefits">
+                    <div class="section cautions">
+                        <h4 class="subheading text-center"><b>Cautions</b></h4>
+                        <div class="dis-adv" id="disAdv">Exercise caution when performing this pose, relevant warnings will appear here.</div>
+                    </div>
+                    <div class="section benefits" >
+                        <h4 class="subheading text-center" id="benefitstext"><b>Benefits</b></h4>
+                        <div class="adv" id="adv">Uncover the advantages of practicing this pose.</div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 jc-center">
-             <div class="pose" id="pose"></div> 
-            <br>
-            <table class="table table-hover table-sm mr-5">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">Pose</th>
-                        <th scope="col">Duration</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div> -->
     </div>
+</div>
+
 
     <br><br>
 

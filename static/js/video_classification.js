@@ -7,28 +7,28 @@ const changeData = (pred_index) => {
 
     const advDisAdv = {
         dog: {
-            adv: ["Tones the arms and legs; opens and strengthens the shoulders in flexion", "lengthens the hamstrings and stretches the calves", "prepares the body for heating inversion"],
-            disAdv: [" Be careful if there is an existing wrist or shoulder injury", "high blood pressure or headache should modify with support for the head (bolster or blankets)", "late-term pregnancy"]
+            adv: ["• Tones the arms and legs; opens and strengthens the shoulders in flexion", "• Lengthens the hamstrings and stretches the calves", "• Prepares the body for heating inversion"],
+            disAdv: ["• Be careful if there is an existing wrist or shoulder injury", "• High blood pressure or headache should modify with support for the head (bolster or blankets)", "• Late-term pregnancy"]
         },
         tree: {
-            adv: ["physical and mental steadiness", "Tree Pose improves focus and concentration while calming your mind.", "Tree Pose stretches the thighs, groins, torso, and shoulders. It builds strength in the ankles and calves, and tones the abdominal muscles"],
-            disAdv: ["experiencing headaches, insomnia, low blood pressure, or if you are lightheaded and/or dizzy.Those with high blood pressure should not raise their arms overhead in the pose"]
+            adv: ["• Physical and mental steadiness", "• Tree Pose improves focus and concentration while calming your mind", "• Tree Pose stretches the thighs, groins, torso, and shoulders. It builds strength in the ankles and calves, and tones the abdominal muscles"],
+            disAdv: ["• Experiencing headaches, insomnia, low blood pressure, or if you are lightheaded and/or dizzy","• Those with high blood pressure should not raise their arms overhead in the pose"]
         },
         mountain: {
-            adv: ["Abdomen, back, legs", "prepares the body for heat extraction"],
-            disAdv: [" Be careful if there is an existing wrist or shoulder injury"]
+            adv: ["• Abdomen, back, legs", "prepares the body for heat extraction"],
+            disAdv: ["• Be careful if there is an existing wrist or shoulder injury"]
         },
         warrior1: {
-            adv: [" Stretches the chest and lungs, shoulders and neck, belly, groins (psoas)", "Strengthens the shoulders and arms, and the muscles of the back", "Strengthens and stretches the thighs, calves, and ankles"],
-            disAdv: [" High blood pressure", "Heart problems", "Students with shoulder problems should keep their raised arms parallel (or slightly wider than parallel) to each other", "Students with neck problems should keep their heads in a neutral position and not look up at the hands."]
+            adv: ["• Stretches the chest and lungs, shoulders and neck, belly, groin", "• Strengthens the shoulders and arms, and the muscles of the back", "• Strengthens and stretches the thighs, calves, and ankles"],
+            disAdv: ["• High blood pressure", "• Heart problems", "• People with shoulder problems should keep their raised arms parallel (or slightly wider than parallel) to each other", "• People with neck problems should keep their heads in a neutral position and not look up at the hands"]
         },
         warrior2: {
-            adv: ["Strengthens and stretches the legs and ankles", "Stretches the groins, chest and lungs, shoulders", "Stimulates abdominal organs", "Increases stamina", "Relieves backaches, especially through the second trimester of pregnancy", "Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica"],
-            disAdv: ["Diarrhea", " High blood pressure", "Neck problems", "Don’t turn your head to look over the front hand"]
+            adv: ["• Strengthens and stretches the legs and ankles", "• Stretches the groins, chest and lungs, shoulders", "• Stimulates abdominal organs", "• Increases stamina", "• Relieves backaches, especially through the second trimester of pregnancy", "• Therapeutic for carpal tunnel syndrome, flat feet, infertility, osteoporosis, and sciatica"],
+            disAdv: ["• Diarrhea", "• High blood pressure", "•Neck problems", "• Don’t turn your head to look over the front hand"]
         },
         goddess: {
-            adv: [" major hip-opening, lower back, hamstrings, knees, pelvic, quadriceps benefits", "recommended during pregnancy", "help improve balance, focus, and concentration,"],
-            disAdv: [" Be careful if there is an existing wrist or shoulder injury", "high blood pressure or headache should modify with support for the head (bolster or blankets)", "late-term pregnancy"]
+            adv: ["• Major hip-opening, lower back, hamstrings, knees, pelvic, quadriceps benefits", "• Recommended during pregnancy", "• Help improve balance, focus, and concentration"],
+            disAdv: ["• Be careful if there is an existing wrist or shoulder injury", "• High blood pressure or headache should modify with support for the head (bolster or blankets)", "• Late-term pregnancy"]
         }
     }
 
